@@ -47,6 +47,20 @@ A scrappy Flask app that lets users borrow and lend books from fellow bookworms.
 
 ![View and return borrowed books](docs/{2F57917F-7D63-49F4-A541-5A8EF7B0E275}.png)
 
+
+# Setup & run 
+
+Clone the repo to a folder, open the folder in terminal or command prompt and then copy-paste the following one by one; just like the good old stackoverflow days before ChatGPT blew up.
+
+1. `python -m venv .venv`
+2. `venv\Scripts\activate` (for Windows)
+or
+`source .venv/bin/activate` (for Linux)
+3. `cd app`
+4. Rename `env.example` to `.env` and change the default values for `SECRET_KEY` & `SQLALCHEMY_DATABASE`
+5. `python app.py`
+
+
 # References
 
 - [Securing Your Flask Application: Hashing Passwords Tutorial](https://dev.to/goke/securing-your-flask-application-hashing-passwords-tutorial-2f0p)
